@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="XxY-jw-S3T"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HELLO WORLD I'M A LABEL" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="320" translatesAutoresizingMaskIntoConstraints="NO" id="Fal-LT-kUL">
@@ -27,7 +27,7 @@
                                 <size key="shadowOffset" width="2" height="2"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="r11-P2-KV2">
-                                <rect key="frame" x="20" y="198" width="275" height="29"/>
+                                <rect key="frame" x="20" y="182" width="275" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.66849949048913038" green="0.26741283421968004" blue="0.17132282492173348" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <segments>
@@ -38,7 +38,7 @@
                                 <color key="tintColor" red="0.31228015609999998" green="0.43053298509999999" blue="0.48718510840000001" alpha="1" colorSpace="calibratedRGB"/>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUR-aP-cFf">
-                                <rect key="frame" x="20" y="143" width="83" height="30"/>
+                                <rect key="frame" x="20" y="132" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="I'm a button">
                                     <color key="titleColor" red="0.31228015609999998" green="0.43053298509999999" blue="0.48718510840000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -46,7 +46,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHN-6N-5al">
-                                <rect key="frame" x="212" y="143" width="83" height="33"/>
+                                <rect key="frame" x="212" y="132" width="83" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Me too!">
                                     <color key="titleColor" red="0.31228015609999998" green="0.43053298509999999" blue="0.48718510840000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -54,7 +54,7 @@
                                 </state>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="I'm a text field!" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="CFY-JT-jLz">
-                                <rect key="frame" x="20" y="256" width="275" height="30"/>
+                                <rect key="frame" x="20" y="225" width="275" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -63,23 +63,23 @@
                                 </connections>
                             </textField>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="GEE-RK-YB1">
-                                <rect key="frame" x="18" y="300" width="279" height="34"/>
+                                <rect key="frame" x="18" y="263" width="279" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.31228015609999998" green="0.43053298509999999" blue="0.48718510840000001" alpha="1" colorSpace="calibratedRGB"/>
                             </slider>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tWK-An-2sb">
-                                <rect key="frame" x="20" y="347" width="51" height="31"/>
+                                <rect key="frame" x="20" y="303" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.31228015609999998" green="0.43053298509999999" blue="0.48718510840000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="onTintColor" red="0.31228015609999998" green="0.43053298509999999" blue="0.48718510840000001" alpha="1" colorSpace="calibratedRGB"/>
                             </switch>
                             <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="8tt-46-2D0">
-                                <rect key="frame" x="206" y="348" width="94" height="29"/>
+                                <rect key="frame" x="212" y="304" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <color key="tintColor" red="0.31228015609999998" green="0.43053298509999999" blue="0.48718510840000001" alpha="1" colorSpace="calibratedRGB"/>
                             </stepper>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5bR-81-vsJ">
-                                <rect key="frame" x="20" y="406" width="280" height="147"/>
+                                <rect key="frame" x="17" y="360" width="280" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -97,6 +97,6 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>
